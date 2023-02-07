@@ -301,6 +301,8 @@ main .insights > div
 main.insights > div:hover
 {
     box-shadow: none;
+    background :"#00000";
+
 }
 
 main .insights > div span
@@ -449,8 +451,9 @@ main a
 .right .top
 {
     display: flex;
-    justify-content: flex;
+    justify-content: end;
     gap: 2rem;
+
 }
 
 .right .top button
@@ -508,5 +511,23 @@ main a
 
 .right .recent-updates .updates 
 {
-    
+    background: var(--color-white);
+    padding: var(--card-padding);
+    border-radius: var(--card-border-radius);
+    box-shadow: var(--box-shadow);
+    transform: all 300ms ease;
 }
+
+.right .recent-updates .updates:hover
+{
+    box-shadow: none;
+}
+
+.right .recent-updates .updates .updates
+{
+    display: grid;
+    grid-template-columns: 2.6rem auto;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
