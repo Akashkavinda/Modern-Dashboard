@@ -479,3 +479,34 @@ main a
     align-items: center;
     justify-content: center;
 }
+
+.right .theme-toggler span.active
+{
+    background: var(--color-primary);
+    color: white;
+    border-radius: var(--border-radius-1);
+}
+
+.right .top .profile-photo
+{
+    display: flex;
+    gap: 2rem;
+    text-align: right;
+}
+
+/*================= Recent Updates================= */
+
+.right .recent-updates
+{
+    margin-top: 1rem;
+}
+
+.right .recent-updates h2
+{
+    margin-bottom: 0.8rem ;
+}
+
+.right .recent-updates .updates 
+{
+    
+}
