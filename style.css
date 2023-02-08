@@ -490,7 +490,7 @@ main a
     border-radius: var(--border-radius-1);
 }
 
-.right .top .profile-photo
+.right .top .profile
 {
     display: flex;
     gap: 2rem;
@@ -523,7 +523,7 @@ main a
     box-shadow: none;
 }
 
-.right .recent-updates .updates .updates
+.right .recent-updates .updates .update
 {
     display: grid;
     grid-template-columns: 2.6rem auto;
