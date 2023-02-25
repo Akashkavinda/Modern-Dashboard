@@ -673,6 +673,7 @@ main a
     .container
     {
         width: 100%;
+        grid-template-columns: 1fr ;
     }
 
     aside
@@ -781,6 +782,13 @@ main a
         color: var(--color-dark);
         position: absolute;
         left: 1rem;
+        font-size: 1rem;
+    }
+
+    .right .top button span
+    {
         font-size: 2rem;
     }
+
+
 }
