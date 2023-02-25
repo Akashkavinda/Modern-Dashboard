@@ -580,7 +580,7 @@ main a
 
 .right .sales-analytics .item.offline .icon
 {
-    background: var(--color-success);
+    background: var(--color-danger);
 }
 
 .right .sales-analytics .item.customers .icon
